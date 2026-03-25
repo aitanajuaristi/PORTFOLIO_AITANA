@@ -1,8 +1,5 @@
 
-
-
-
-
+/* GENEARL */
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +17,8 @@ a {
     height: auto;
     vertical-align: middle;
 } */
+
+/* TIPOGRAGÍA */
 
 h1 {
     font-size: 200px;
@@ -52,6 +51,7 @@ h5 {
     line-height: 80px;
     font-weight: bold;
 }
+
 
 .wrapper {
     max-width: 1800px;
@@ -135,7 +135,7 @@ nav > div {
 header {
     margin-top: 100px;
     gap: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 350px;
 }
 
 .Presentacion {
@@ -169,4 +169,11 @@ header {
     color: #1800AD;
 }
 
+
+/* SOBRE MI  */
+/* #Formacion > .fila-1 >.SANTO TOMAS LIZEOA > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+} */
 
