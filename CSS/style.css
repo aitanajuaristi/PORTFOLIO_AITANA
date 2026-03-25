@@ -226,7 +226,6 @@ header {
 
 
 
-
 /* SOBRE MI  */
 .Sobre mi{
     display: flex;
@@ -254,3 +253,52 @@ font-weight: bold;
     height: auto;
     vertical-align: middle;
 } */
+
+
+
+/* MEDIA QUERIES */
+
+/* Este bloque de selectores solo funcionara cuando se cumpla la condicion de que la pantalla del usuario sea menor de 720px */
+
+/* TABLET */
+/* @media screen and (max-width: 720px) { 
+
+    .wrapper {
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    #projects > .pro-row {
+        flex-wrap: wrap;
+    }
+    #projects > .pro-row > .col {
+        width: 100%;
+    }
+
+    footer > .f-row {
+        flex-direction: column;
+        align-items: center
+    }
+    footer > .f-row > .copyright {
+        padding-top: 40px;
+        text-align: center;
+    } */
+
+/* } */
+
+/* MOBILE */
+/* @media screen and (max-width: 480px) { 
+    .wrapper {
+        padding: 0 10px;
+    } */
+    /* Con opacity el elemento se vuelve transparente */
+    /* header > div:last-child {
+        opacity: 0;
+    } */
+
+    /* header > div:last-child {
+        display: none;
+    }
+    
+    } */
