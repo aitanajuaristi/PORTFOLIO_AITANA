@@ -1,3 +1,8 @@
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,11 +15,11 @@ a {
     text-decoration: none;
 }
 
-img {
+/* img {
     width: 100%;
     height: auto;
     vertical-align: middle;
-}
+} */
 
 h1 {
     font-size: 200px;
@@ -120,4 +125,48 @@ header > div > h1 {
 } */
 
 /* SECCION PRESENTACION */
+
+nav > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header {
+    margin-top: 100px;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.Presentacion {
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 60px;
+}
+
+.Presentacion > div > p {
+    width: 450px;
+}
+#Proyectos > .VIZLO > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+}
+
+#Proyectos > .NÜMILK > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+}
+
+#Proyectos > .THYSSEN > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+}
+
 
