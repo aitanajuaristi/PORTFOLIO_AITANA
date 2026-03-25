@@ -13,73 +13,67 @@ a {
 }
 
 
-/* TIPOGRAFÍA */
+/* TITULOS */
 
+/* PORTFOLIO  */
 h1 {
     font-size: 200px;
     line-height: 80px;
     font-weight: bold;
 }
 
+/* SUBTITULO */
 h2 {
-    font-size: 18px;
-    line-height: 80px;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 16px;
-    line-height: 80px;
-    font-weight:normal
-    
-} 
-
-h4 {
     font-size: 100px;
     line-height: 80px;
     font-weight: bold;
-
 }
 
-/* h5 {
-    font-family: Anton;
-    line-height: 80px;
-    font-weight: bold;
-} */
-
-h5 {
+/* MINI TITULOS TRABAJOS*/
+h3 {
     font-size: 25px;
     line-height: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1800AD;
+    
+} 
+
+/* SOLO PARA CONTACTO */
+h5 {
+    font-size: 20px;
+    line-height: 80px;
     font-weight: bold;
 }
 
+h6 {
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: bold;
+}
 
+/* ESTO QUE ES */
 .wrapper {
     max-width: 1800px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
-
+/* ESTO QUE ES */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
 }
 
-/* nav > ul {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-
-} */
 
 /* ANIMACIÓN
 nav > ul > li > a:hover {
     color: #1800AD;
 } */ */
 
-header > div > h2 {
+/* NO SE PONE EN EL MEDIO */
+
+header > div > h6 {
     padding: 80px 0;
     display: flex;
     row-gap: 60px;
@@ -99,21 +93,11 @@ header > div > h1 {
     align-items: center;
 }
 
-header > div > h2 {
-    display: flex;
-    justify-content: center;
-}
 
+
+/* ESTO PARA QUE */
 header {
     flex-wrap: wrap;
-}
-
-
-/* SECCION PORTADA */
-nav > div {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
 }
 
 header {
@@ -121,6 +105,15 @@ header {
     gap: 10px;
     margin-bottom: 350px;
 }
+
+
+/* SECCION PORTADA (QUE ES?)*/
+nav > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 
 /* SECCION PRESENTACION */
 .Presentacion {
@@ -138,24 +131,13 @@ header {
     width: 450px;
 }
 
+#Presentacion > .Presentacion > div > .miarroba {
+    margin-top: 20px;
+}
+
+
+
 /* SECCION PROYECTOS */
-#Proyectos > .VIZLO > div > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
-}
-
-#Proyectos > .NÜMILK > div > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
-}
-
-#Proyectos > .THYSSEN > div > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
-}
 
 .VIZLO {
     display: flex;
@@ -167,6 +149,7 @@ header {
     gap: 60px;
 }
 
+/* ESTO QUE ES */
 /* .Presentacion > div > p {
     width: 450px;
 } */
@@ -226,6 +209,7 @@ header {
 
 
 
+
 /* SOBRE MI  */
 .Sobre mi{
     display: flex;
@@ -237,6 +221,9 @@ header {
     gap: 60px;
     margin-bottom: 200px;
 }
+    /* #Sobre mi > .Sobre mi > .div > .img {
+        align-items: center;
+    } */
 
 /* .Sobre mi> div > p {
     width: 450px;
@@ -248,11 +235,19 @@ font-size: 18px;
 font-weight: bold;
 } */
 
-/* img {
+#Sobre mi > .Sobre mi > div > img {
     width: 100%;
     height: auto;
     vertical-align: middle;
-} */
+}
+
+/* NO ENTIENDO */
+#Sobre mi > .Sobre mi > div > p {
+    width: 450px;
+}
+
+
+
 
 
 
