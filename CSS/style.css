@@ -12,13 +12,8 @@ a {
     text-decoration: none;
 }
 
-/* img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-} */
 
-/* TIPOGRAGÍA */
+/* TIPOGRAFÍA */
 
 h1 {
     font-size: 200px;
@@ -46,8 +41,14 @@ h4 {
 
 }
 
-h5 {
+/* h5 {
     font-family: Anton;
+    line-height: 80px;
+    font-weight: bold;
+} */
+
+h5 {
+    font-size: 25px;
     line-height: 80px;
     font-weight: bold;
 }
@@ -73,17 +74,10 @@ nav {
 
 } */
 
-/* SOBRE MI EN NEGRITA */
-/* nav > ul > li > a { 
-font-size: 18px;
-font-weight: bold;
-
-}
-
-ANIMACIÓN
+/* ANIMACIÓN
 nav > ul > li > a:hover {
     color: #1800AD;
-} */
+} */ */
 
 header > div > h2 {
     padding: 80px 0;
@@ -105,26 +99,15 @@ header > div > h1 {
     align-items: center;
 }
 
-/* header > div:first-child {
+header > div > h2 {
     display: flex;
-    flex-direction: column;
-    gap: 28px;
-} */ 
+    justify-content: center;
+}
 
-/* header > div:last-child {
-    min-width: 380px;
-    max-width: 624px;
-    border: 1px purple solid;
-    padding: 40px;
-    height: fit-content;
-    border-radius: 50%;
-} */
+header {
+    flex-wrap: wrap;
+}
 
-/* header > div {
-    flex: 1;
-} */
-
-/* SECCION PRESENTACION */
 
 /* SECCION PORTADA */
 nav > div {
@@ -210,7 +193,38 @@ header {
     /* justify-content: space-between; */
     justify-content: center;
     gap: 60px;
+    margin-bottom: 150px;
 }
+
+/* FOOTER */
+#footer >  .iconos.footer {
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+    align-items:end;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 300px;
+}
+
+
+#footer > .rowdown > {
+    display: flex;
+    flex-direction:row ;
+    /* flex: 1; */
+    align-items:end;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* gap: 60px; */
+    margin-bottom: 300px;
+}
+
+#footer > .rowdown {
+    margin-top: 150px;
+}
+
+
 
 
 /* SOBRE MI  */
@@ -227,4 +241,16 @@ header {
 
 /* .Sobre mi> div > p {
     width: 450px;
+} */
+
+/* SOBRE MI EN NEGRITA */
+/* nav > div> h2 { 
+font-size: 18px;
+font-weight: bold;
+} */
+
+/* img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
 } */
