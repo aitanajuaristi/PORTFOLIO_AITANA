@@ -126,6 +126,7 @@ header > div > h1 {
 
 /* SECCION PRESENTACION */
 
+/* SECCION PORTADA */
 nav > div {
     display: flex;
     flex-direction: row;
@@ -138,7 +139,42 @@ header {
     margin-bottom: 350px;
 }
 
+/* SECCION PRESENTACION */
 .Presentacion {
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 200px;
+}
+
+.Presentacion > div > p {
+    width: 450px;
+}
+
+/* SECCION PROYECTOS */
+#Proyectos > .VIZLO > div > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+}
+
+#Proyectos > .NÜMILK > div > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+}
+
+#Proyectos > .THYSSEN > div > h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: #1800AD;
+}
+
+.VIZLO {
     display: flex;
     flex-direction: row;
     /* flex: 1; */
@@ -148,38 +184,47 @@ header {
     gap: 60px;
 }
 
-.Presentacion > div > p {
+/* .Presentacion > div > p {
     width: 450px;
-}
-#Proyectos > .VIZLO > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
+} */
+
+.NÜMILK {
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 60px;
 }
 
-#Proyectos > .NÜMILK > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
-}
+/* .Presentacion > div > p {
+    width: 450px;
+} */
 
-#Proyectos > .THYSSEN > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
+.THYSSEN {
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 60px;
 }
 
 
 /* SOBRE MI  */
-/* #Formacion > .fila-1 >.SANTO TOMAS LIZEOA > h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: #1800AD;
-} */
-
-#Presentacion {
-   margin-top: 100px;
-    gap: 10px;
-    margin-bottom: 200px; 
-
+.Sobre mi{
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 200px;
 }
+
+/* .Sobre mi> div > p {
+    width: 450px;
+} */
