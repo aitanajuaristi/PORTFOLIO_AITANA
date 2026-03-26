@@ -31,7 +31,7 @@ h2 {
 
 /* MINI TITULOS TRABAJOS*/
 h3 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #1800AD;
@@ -51,18 +51,18 @@ h6 {
     font-weight: bold;
 }
 
-/* ESTO QUE ES */
+
 .wrapper {
-    max-width: 1800px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
-/* ESTO QUE ES */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
+    margin-top: 20px;
 }
 
 
@@ -92,7 +92,6 @@ header > div > h1,h6 {
     justify-content: center;
     align-items: center;
 }
-
 
 
 /* ESTO PARA QUE */
@@ -136,7 +135,7 @@ nav > div {
     margin-top: 20px;
 }
 
-/* ESTO QUE ES */ */
+/* ESTO QUE ES */ 
 .Presentacion > div > p {
     width: 450px;
 }
@@ -194,22 +193,22 @@ nav > div {
 }
 
 
-#footer > .rowdown > {
+#footer > .rowdown {
     display: flex;
     flex-direction:row ;
+    flex-wrap: wrap;
     /* flex: 1; */
     align-items:end;
     /* justify-content: space-between; */
-    justify-content: center;
-    /* gap: 60px; */
-    margin-bottom: 300px;
+    justify-content: space-between;
+    /* gap: 1000px;  */
+
 }
 
 #footer > .rowdown {
     margin-top: 150px;
+    margin-bottom: 50px;
 }
-
-
 
 
 /* SOBRE MI  */
@@ -220,13 +219,9 @@ nav > div {
     align-items: center;
     /* justify-content: space-between; */
     justify-content: center;
-    gap: 60px;
+    gap: 180px;
     margin-bottom: 200px;
 }
-
-/* #Sobre mi > .Sobre mi > .div > .img {
-    align-items: center;
-} */
 
 /* .Sobre mi> div > p {
     width: 450px;
@@ -238,16 +233,29 @@ font-size: 18px;
 font-weight: bold;
 } */
 
-#Sobre mi > .Sobre mi > div > img {
+#Sobremi > .Sobremi {
+    margin-top: 80px;
+}
+
+
+#Sobremi > .Sobremi > div > img {
     width: 100%;
     height: auto;
     vertical-align: middle;
 }
 
-/* NO ENTIENDO */
-#Sobre mi > .Sobre mi > div > p {
+#Sobremi > .Sobremi > div > p {
     width: 450px;
 }
+
+#Sobremi > .Sobremi {
+    margin-top: 80px;
+}
+
+#Formación > h2 {
+    margin-bottom: 80px;
+}
+
 
 
 
