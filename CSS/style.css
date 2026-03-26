@@ -179,6 +179,10 @@ nav > div {
     margin-bottom: 150px;
 }
 
+.numeros {
+    margin-top: 20px;
+}
+
 /* FOOTER */
 #footer >  .iconos.footer {
     display: flex;
