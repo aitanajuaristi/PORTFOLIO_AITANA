@@ -223,6 +223,11 @@ nav > div {
     text-align:end;
 }
 
+#footer > .iconos.footer {
+    display: flex;
+    align-content: end;
+}
+
 /* SOBRE MI  */
 #Sobremi > .Sobremi{
     display: flex;
@@ -300,8 +305,8 @@ font-weight: bold;
 
 /* Este bloque de selectores solo funcionara cuando se cumpla la condicion de que la pantalla del usuario sea menor de 720px */
 
-/* TABLET */
-/* @media screen and (max-width: 720px) { 
+TABLET 
+@media screen and (max-width: 720px) { 
 
     .wrapper {
         padding: 0 20px;
@@ -325,7 +330,7 @@ font-weight: bold;
         text-align: center;
     } */
 
-/* } */
+}
 
 /* MOBILE */
 /* @media screen and (max-width: 480px) { 
@@ -341,4 +346,3 @@ font-weight: bold;
         display: none;
     }
     
-    } */
