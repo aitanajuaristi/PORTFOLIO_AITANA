@@ -135,6 +135,10 @@ nav > div {
     margin-top: 20px;
 }
 
+/* ESTO QUE ES */ */
+.Presentacion > div > p {
+    width: 450px;
+}
 
 
 /* SECCION PROYECTOS */
@@ -149,10 +153,6 @@ nav > div {
     gap: 60px;
 }
 
-/* ESTO QUE ES */
-/* .Presentacion > div > p {
-    width: 450px;
-} */
 
 .NÜMILK {
     display: flex;
@@ -164,9 +164,6 @@ nav > div {
     gap: 60px;
 }
 
-/* .Presentacion > div > p {
-    width: 450px;
-} */
 
 .THYSSEN {
     display: flex;
@@ -225,9 +222,10 @@ nav > div {
     gap: 60px;
     margin-bottom: 200px;
 }
-    /* #Sobre mi > .Sobre mi > .div > .img {
-        align-items: center;
-    } */
+
+/* #Sobre mi > .Sobre mi > .div > .img {
+    align-items: center;
+} */
 
 /* .Sobre mi> div > p {
     width: 450px;
@@ -249,9 +247,6 @@ font-weight: bold;
 #Sobre mi > .Sobre mi > div > p {
     width: 450px;
 }
-
-
-
 
 
 
