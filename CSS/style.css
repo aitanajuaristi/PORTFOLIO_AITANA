@@ -305,7 +305,7 @@ font-weight: bold;
 
 /* Este bloque de selectores solo funcionara cuando se cumpla la condicion de que la pantalla del usuario sea menor de 720px */
 
-TABLET 
+/* TABLET 
 @media screen and (max-width: 720px) { 
 
     .wrapper {
@@ -328,9 +328,9 @@ TABLET
     footer > .f-row > .copyright {
         padding-top: 40px;
         text-align: center;
-    } */
+    } 
 
-}
+}  */
 
 /* MOBILE */
 /* @media screen and (max-width: 480px) { 
@@ -345,4 +345,3 @@ TABLET
     /* header > div:last-child {
         display: none;
     }
-    
