@@ -160,6 +160,11 @@ nav > div {
     /* justify-content: space-between; */
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
+}
+
+#Proyectos > .VIZLO > .texto {
+    flex:45%
 }
 
 
@@ -190,15 +195,11 @@ nav > div {
 }
 
 /* FOOTER */
-#footer >  .iconos.footer {
+#footer >  .iconos-footer {
+    font-size: 24px;
     display: flex;
-    flex-direction: row;
-    /* flex: 1; */
-    align-items:end;
-    /* justify-content: space-between; */
-    justify-content: center;
-    gap: 60px;
-    margin-bottom: 300px;
+    gap: 24px;
+    padding: 24px 0;
 }
 
 
