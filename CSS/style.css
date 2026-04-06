@@ -52,6 +52,9 @@ h5 {
     font-weight: bold;
 }
 
+
+/* BY AITANA */
+
 h6 {
     font-size: 20px;
     line-height: 80px;
@@ -363,44 +366,248 @@ header > div > img {
 
 /* Este bloque de selectores solo funcionara cuando se cumpla la condicion de que la pantalla del usuario sea menor de 720px */
 
-/* TABLET 
+/* TABLET  */
 @media screen and (max-width: 720px) { 
 
+    /* GENERAL  */
     .wrapper {
-        padding: 0 20px;
+        padding: 20px;
     }
     h1 {
-        font-size: 48px;
+        font-size: 130px;
     }
-    #projects > .pro-row {
-        flex-wrap: wrap;
+
+    h2 {
+        font-size: 90px;
     }
-    #projects > .pro-row > .col {
+
+    h3 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    p {
+       font-size: 14px; 
+    }
+
+
+
+
+    /* PORTADA */
+    header > div > img {
         width: 100%;
     }
 
-    footer > .f-row {
-        flex-direction: column;
-        align-items: center
+
+
+
+
+    /* PRESENTACION  */
+
+    #Presentacion > .Presentacion > div > img {
+        width: 90%;
     }
-    footer > .f-row > .copyright {
-        padding-top: 40px;
+
+    #Presentacion {
+        display: flex;
         text-align: center;
-    } 
-
-}  */
-
-/* MOBILE 
-@media screen and (max-width: 480px) { 
-    .wrapper {
-        padding: 0 10px;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .Presentacion {
+        margin-bottom: 150px;
+    }
+    /* #Presentacion > .Presentacion > div > .iconos-redes {
+        align-items: center;
+        text-align: center ;
     } */
+
+
+
+
+    /* PROYECTOS */
+    #Proyectos > .VIZLO > .imagen-vizlo > img {
+        width: 100%;
+    } 
+    
+    #Proyectos > .VIZLO {
+        margin-top: 100px;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    #Proyectos > .NÜMILK > .imagen-numilk > img {
+        width: 100%;
+    } 
+    
+    #Proyectos > .NÜMILK {
+        margin-top: 50px;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    #Proyectos > .THYSSEN > .imagen-thyssen > img {
+        width: 100%;
+    } 
+    
+    #Proyectos > .THYSSEN {
+        margin-top: 50px;
+        gap: 10px;
+        margin-bottom: 100px;
+    }
+
+
+
+    /* SOBREMI  */
+    #Sobremi > .Sobremi {
+        display: flex;
+        text-align: center;
+        margin-bottom: 100px;
+        gap: 30px;
+        
+    }
+    
+    #Sobremi > .Sobremi > div > .Firma {
+        width: 80%;
+        margin-top: 20px;
+    }
+    
+
+
+    /* FORMACION  */
+    #Formación > .fila-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #Formación > .fila-1 > .IDIOMAS {
+        display: flex;  
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    #Formación > .fila-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #Formación > .fila-2 > .SKILLS {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+    }
+    
+    #Formación > .fila-2 > .SKILLS > img {
+        width: 40%;
+        margin-bottom: 100px;
+    }
+    
+    
+    
+    /* GALERIA  */
+    
+    /* #Galeria > ul {
+        display: flex;
+        width: 5%;
+        flex-direction: row;
+    } */
+
+
+
+
+    /* FOOTER  */
+    /* #footer > .rowdown {
+        margin-top: 30px;
+    } */
+}
+
+
+/* MOBILE  */
+@media screen and (max-width: 480px) { 
+    /* GENERAL  */
+    .wrapper {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    p {
+       font-size: 14px; 
+    }
+
+
+
+     /* PRESENTACION  */
+    #Presentacion > .Presentacion > div > img {
+        width: 100%;
+    }
+
+    .Presentacion {
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+
+    
+    /* PROYECTOS */ 
+    #Proyectos > .VIZLO {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    #Proyectos > .NÜMILK {
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 100px;
+    }
+
+    #Proyectos > .THYSSEN {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+
+    /* FORMACION  */
+    #Formación > h2 {
+        margin-bottom: 40px;
+    }
+
+    #Formación > .fila-2 > .SKILLS > img {
+        width: 50%;
+        margin-bottom: 70px;
+    }
+
+
+
     /* Con opacity el elemento se vuelve transparente */
     /* header > div:last-child {
         opacity: 0;
     } */
 
-    /* header > div:last-child {
-        display: none;
-    } */
-/* } */ */ */ */
+
+} 
