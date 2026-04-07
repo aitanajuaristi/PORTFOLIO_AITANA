@@ -73,9 +73,11 @@ nav > a:hover {
     color:#1800AD;
 } 
 
-nav > div.arriba:hover {
+nav > div.arriba > a:hover {
     color: #1800AD;
 }
+
+
 
 nav {
     display: flex;
@@ -121,7 +123,6 @@ header > div > img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
     justify-content: center;
     gap: 60px;
     margin-bottom: 200px;
@@ -303,12 +304,12 @@ header > div > img {
     padding: 20px 0 80px 0;
 }
 
-#Galeria > ul {
+/* #Galeria > ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-}
+} */
 
 #Galeria > ul > li {
     height: 25vh;
@@ -333,10 +334,10 @@ header > div > img {
 
 /* FOOTER */
 #footer >  .iconos-footer {
-     font-size: 30px;
+    font-size: 30px;
     display: flex;
     gap: 10px;
-    padding: 24px 0;
+    justify-content: end;
 }
 
 
