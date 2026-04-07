@@ -305,19 +305,11 @@ header > div > img {
 }
 
 #Galeria > ul > li {
-    /* width: 33.333%; */
     flex: 30%;
 }
 
-/* #Galeria > ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-} */
 
 #Galeria > ul > li {
-    height: 25vh;
     flex-grow: 1;
 }
 
@@ -326,6 +318,7 @@ header > div > img {
     min-width: 100%;
     object-fit: cover;
 }
+
 
 #Galeria > h2 {
     margin-top: 80px;
@@ -356,7 +349,7 @@ header > div > img {
 }
 
 #footer > .rowdown {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -364,9 +357,10 @@ header > div > img {
     text-align:end;
 }
 
-#footer > .iconos.footer {
+#footer > .iconos-footer {
     display: flex;
     align-content: end;
+    margin-top: 50px;
 }
 
 
