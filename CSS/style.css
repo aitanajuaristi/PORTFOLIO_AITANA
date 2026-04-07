@@ -525,19 +525,10 @@ header > div > img {
     
     /* GALERIA  */
     
-    /* #Galeria > ul {
-        display: flex;
-        width: 5%;
-        flex-direction: row;
-    } */
+    #Galeria > ul > li {
+    flex: 50%;
+    }
 
-
-
-
-    /* FOOTER  */
-    /* #footer > .rowdown {
-        margin-top: 30px;
-    } */
 }
 
 
@@ -612,12 +603,6 @@ header > div > img {
         margin-bottom: 70px;
     }
 
-
-
-    /* Con opacity el elemento se vuelve transparente */
-    /* header > div:last-child {
-        opacity: 0;
-    } */
 
 
 } 
