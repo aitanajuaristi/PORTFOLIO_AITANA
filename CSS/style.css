@@ -156,7 +156,7 @@ header > div > img {
     align-items: center;
     justify-content: center;
     gap: 60px;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 #Proyectos > .VIZLO > .texto-vizlo {
@@ -164,7 +164,8 @@ header > div > img {
 }
 
 #Proyectos > .VIZLO > .imagen-vizlo {
-    flex:45%
+    flex:45%;
+    width:100%;
 } 
 
 .NÜMILK {
@@ -300,10 +301,6 @@ header > div > img {
     flex: 30%;
 }
 
-#Galeria {
-    padding: 20px 0 80px 0;
-}
-
 /* #Galeria > ul {
     list-style: none;
     display: flex;
@@ -374,7 +371,7 @@ header > div > img {
 /* Este bloque de selectores solo funcionara cuando se cumpla la condicion de que la pantalla del usuario sea menor de 720px */
 
 /* TABLET  */
-@media screen and (max-width: 720px) { 
+@media screen and (max-width: 1320px) { 
 
     /* GENERAL  */
     .wrapper {
@@ -429,10 +426,12 @@ header > div > img {
     .Presentacion {
         margin-bottom: 150px;
     }
+    
     /* #Presentacion > .Presentacion > div > .iconos-redes {
         align-items: center;
         text-align: center ;
-    } */
+        align-content: center;
+    } */ */
 
 
 
@@ -446,6 +445,8 @@ header > div > img {
         margin-top: 100px;
         gap: 10px;
         margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
     }
 
     #Proyectos > .NÜMILK > .imagen-numilk > img {
@@ -539,7 +540,7 @@ header > div > img {
 
 
 /* MOBILE  */
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 650px) { 
     /* GENERAL  */
     .wrapper {
         padding: 10px;
